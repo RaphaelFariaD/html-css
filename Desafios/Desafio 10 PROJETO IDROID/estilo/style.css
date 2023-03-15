@@ -36,8 +36,7 @@ a.externo::after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--c, (--cor5));
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -102,11 +101,10 @@ main {
 }
 
 main h1 {
-    font-family: var(--fonte-android);
     color: var(--cor5);
+    font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;;
-
 }
 
 main h2 {
@@ -129,7 +127,7 @@ main p {
 
 main strong {
     color: var(--cor4);
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 
@@ -161,7 +159,6 @@ div.video {
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 58%;
-
     position: relative;
 }
 
@@ -203,10 +200,10 @@ footer {
     padding: 5px;
 }
 
-footer > p > a {
+footer a {
     color: white;
     font-weight: bolder;
-    text-decoration: ;
+    text-decoration: none;
 }
 
 footer a:hover {
